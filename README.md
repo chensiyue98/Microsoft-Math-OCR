@@ -14,7 +14,11 @@ The script post an HTTP request to Microsoft Bing, using the same API as the mob
   - File name: screenshot_temp
   - Format: PNG
   - After capture: Run terminal command
-    - Terminal command: cd <your_path>; <your_python_path> equationOCR.py
+    - Terminal command: 
+    ```cd <your_path>; <your_python_path> equationOCR.py```
 
 ## How to find <your_python_path>
-If you are not using a default python from the operating system, then type "which python" in your terminal.
+If you are not using a default python from the operating system, then type the following script in your terminal.
+```
+which python
+```
